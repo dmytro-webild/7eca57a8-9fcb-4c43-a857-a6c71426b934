@@ -54,7 +54,7 @@ export default function ApplicationsPage() {
               id: "4",              brand: "Workshops",              name: "Mechanical & Auto Workshops",              price: "Heavy-Duty Variants",              rating: 5,
               reviewCount: "280+",              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",              imageAlt: "Workshop equipment with industrial wheels"},
           ]}
-          gridVariant="uniform-4-items"
+          gridVariant="four-items-2x2-equal-grid"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
@@ -74,7 +74,7 @@ export default function ApplicationsPage() {
             {
               id: "logistics",              title: "Logistics & Warehousing",              description: "Reliable, cost-effective wheels for pallets, carts, and material handling equipment. Supports high-volume daily operations in distribution centers.",              imageSrc: "http://img.b2bpic.net/free-photo/warehouse-workers-discussing-about-logistics-distribution-packages-market_342744-1558.jpg",              imageAlt: "Warehouse logistics and distribution"},
           ]}
-          gridVariant="uniform-4-items"
+          gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground="noInvert"
