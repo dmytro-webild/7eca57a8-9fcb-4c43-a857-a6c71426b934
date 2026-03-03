@@ -48,15 +48,15 @@ export default function HomePage() {
           ]}
           slides={[
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/warehouse-workers-checking-inventory-large-distribution-warehouse-storage_342744-1538.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/warehouse-workers-checking-inventory-large-distribution-warehouse-storage_342744-1538.jpg?_wi=1",
               imageAlt: "Industrial warehouse with material handling equipment",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-bike-pieces_23-2148932626.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-bike-pieces_23-2148932626.jpg?_wi=1",
               imageAlt: "Professional castor wheels for industrial applications",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/african-american-female-industrial-employee-hardhat-overall-walking-plant-floor_74855-16327.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/african-american-female-industrial-employee-hardhat-overall-walking-plant-floor_74855-16327.jpg?_wi=1",
               imageAlt: "Factory production floor with industrial wheels",
             },
           ]}
@@ -71,7 +71,7 @@ export default function HomePage() {
           tag="About Us"
           title="Trusted Industrial Wheel Supplier Since 1998"
           description="Radhe Marketing is a leading wholesaler and retailer of premium quality castor wheels, trolley wheels, and rubber wheels based in Ahmedabad, Gujarat. Serving factories, warehouses, hospitals, workshops, logistics companies, and material handling units across India with reliable, durable, and cost-effective solutions."
-          imageSrc="http://img.b2bpic.net/free-photo/smart-indian-engineer-man-wearing-safety-helmet-doing-stock-tick-check-cardboard-stock-product-management-factory-warehouse-background_609648-1422.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/smart-indian-engineer-man-wearing-safety-helmet-doing-stock-tick-check-cardboard-stock-product-management-factory-warehouse-background_609648-1422.jpg?_wi=1"
           imageAlt="Radhe Marketing warehouse and operations facility"
           buttons={[
             { text: "Call Us", href: "tel:+919909421029" },
@@ -91,42 +91,42 @@ export default function HomePage() {
               id: "heavy-duty",
               title: "Heavy Duty Castor Wheels",
               description: "Engineered for maximum load capacity and durability in demanding industrial environments. Perfect for factories, foundries, and heavy machinery applications.",
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg?_wi=1",
               imageAlt: "Heavy duty industrial wheels for demanding applications",
             },
             {
               id: "medium-duty",
               title: "Medium Duty Wheels",
               description: "Balanced performance for general warehouse and material handling operations. Reliable for trolleys, carts, and standard material transfer equipment.",
-              imageSrc: "http://img.b2bpic.net/free-psd/portable-folding-utility-cart-with-two-shelves-orange-handle_84443-76242.jpg",
+              imageSrc: "http://img.b2bpic.net/free-psd/portable-folding-utility-cart-with-two-shelves-orange-handle_84443-76242.jpg?_wi=1",
               imageAlt: "Medium duty trolley wheels for warehouses",
             },
             {
               id: "light-duty",
               title: "Light Duty Wheels",
               description: "Specialized for hospitals, clinics, and light-load applications. Smooth operation ensures quiet, safe movement of medical and office equipment.",
-              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg?_wi=1",
               imageAlt: "Light duty wheels for hospital and medical equipment",
             },
             {
               id: "pu-nylon",
               title: "PU & Nylon Wheels",
               description: "Modern polyurethane and nylon variants offering superior grip, floor protection, and reduced noise. Ideal for sensitive environments and precision handling.",
-              imageSrc: "http://img.b2bpic.net/free-photo/fitness-equipment_53876-31257.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/fitness-equipment_53876-31257.jpg?_wi=1",
               imageAlt: "PU and nylon wheel materials",
             },
             {
               id: "swivel-fixed",
               title: "Swivel & Fixed Castors",
               description: "Complete wheel configurations including swivel for maneuverability and fixed for directional stability. Braked variants available for safety.",
-              imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-bike-pieces_23-2148932626.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-bike-pieces_23-2148932626.jpg?_wi=2",
               imageAlt: "Swivel and fixed castor wheel configurations",
             },
             {
               id: "braked",
               title: "Braked Wheel Solutions",
               description: "Integrated braking systems for secure equipment positioning and operator safety. Essential for steep surfaces and dynamic work environments.",
-              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg?_wi=1",
               imageAlt: "Braked wheel systems for safety",
             },
           ]}
@@ -151,7 +151,7 @@ export default function HomePage() {
               price: "Custom Solutions",
               rating: 5,
               reviewCount: "500+",
-              imageSrc: "http://img.b2bpic.net/free-photo/african-american-female-industrial-employee-hardhat-overall-walking-plant-floor_74855-16327.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/african-american-female-industrial-employee-hardhat-overall-walking-plant-floor_74855-16327.jpg?_wi=2",
               imageAlt: "Industrial factory production with material handling wheels",
             },
             {
@@ -161,7 +161,7 @@ export default function HomePage() {
               price: "Light-Duty Wheels",
               rating: 5,
               reviewCount: "300+",
-              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg?_wi=2",
               imageAlt: "Hospital trolley with smooth operating wheels",
             },
             {
@@ -171,7 +171,7 @@ export default function HomePage() {
               price: "Medium-Duty Wheels",
               rating: 5,
               reviewCount: "600+",
-              imageSrc: "http://img.b2bpic.net/free-photo/warehouse-workers-discussing-about-logistics-distribution-packages-market_342744-1558.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/warehouse-workers-discussing-about-logistics-distribution-packages-market_342744-1558.jpg?_wi=1",
               imageAlt: "Warehouse with material handling equipment",
             },
             {
@@ -181,7 +181,7 @@ export default function HomePage() {
               price: "Heavy-Duty Options",
               rating: 5,
               reviewCount: "280+",
-              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg?_wi=2",
               imageAlt: "Workshop equipment with industrial wheels",
             },
           ]}
@@ -204,7 +204,7 @@ export default function HomePage() {
               role: "Production Manager",
               company: "Ahmedabad Manufacturing Ltd",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg?_wi=1",
               imageAlt: "Rajesh Patel - Production Manager",
             },
             {
@@ -213,7 +213,7 @@ export default function HomePage() {
               role: "Warehouse Manager",
               company: "Gujarat Logistics Solutions",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg?_wi=2",
               imageAlt: "Vikram Singh - Warehouse Manager",
             },
             {
@@ -222,7 +222,7 @@ export default function HomePage() {
               role: "Hospital Administrator",
               company: "Apollo Hospital Ahmedabad",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-female-business-executive-standing-with-arms-crossed_1170-780.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-female-business-executive-standing-with-arms-crossed_1170-780.jpg?_wi=1",
               imageAlt: "Dr. Neha Verma - Hospital Administrator",
             },
             {
@@ -240,7 +240,7 @@ export default function HomePage() {
               role: "Operations Head",
               company: "Premium Distribution Network",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg?_wi=3",
               imageAlt: "Priya Gupta - Operations Head",
             },
             {
@@ -249,7 +249,7 @@ export default function HomePage() {
               role: "Maintenance Director",
               company: "Indian Steel Corporation",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg?_wi=4",
               imageAlt: "Suresh Nair - Maintenance Director",
             },
           ]}
@@ -267,7 +267,7 @@ export default function HomePage() {
           description="Contact Radhe Marketing for wholesale pricing, product specifications, technical support, or to discuss your specific industrial wheel requirements. Our team responds quickly to all inquiries."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-vector/web-contact-form-template_23-2147608998.jpg"
+          imageSrc="http://img.b2bpic.net/free-vector/web-contact-form-template_23-2147608998.jpg?_wi=1"
           imageAlt="Radhe Marketing customer inquiry contact"
           mediaPosition="right"
           inputPlaceholder="Enter your email address"
