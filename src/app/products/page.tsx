@@ -54,7 +54,7 @@ export default function ProductsPage() {
             {
               id: "braked",              title: "Braked Wheel Solutions",              description: "Integrated braking systems providing secure equipment positioning and enhanced operator safety, essential for steep surfaces and dynamic work environments.",              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",              imageAlt: "Braked wheel systems for safety"},
           ]}
-          gridVariant="uniform-4-items"
+          gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground="noInvert"
@@ -80,7 +80,7 @@ export default function ProductsPage() {
               id: "4",              brand: "Premium PU Series",              name: "Polyurethane Eco Wheels",              price: "₹3,000-6,500",              rating: 5,
               reviewCount: "290+",              imageSrc: "http://img.b2bpic.net/free-photo/fitness-equipment_53876-31257.jpg",              imageAlt: "Premium polyurethane eco-friendly wheels"},
           ]}
-          gridVariant="uniform-4-items"
+          gridVariant="four-items-2x2-equal-grid"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
