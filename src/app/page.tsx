@@ -94,7 +94,7 @@ export default function HomePage() {
             {
               id: "braked",              title: "Braked Wheel Solutions",              description: "Integrated braking systems for secure equipment positioning and operator safety. Essential for steep surfaces and dynamic work environments.",              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",              imageAlt: "Braked wheel systems for safety"},
           ]}
-          gridVariant="uniform-4-items"
+          gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground="noInvert"
@@ -121,7 +121,7 @@ export default function HomePage() {
               id: "4",              brand: "Workshops",              name: "Mechanical & Auto Workshops",              price: "Heavy-Duty Options",              rating: 5,
               reviewCount: "280+",              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",              imageAlt: "Workshop equipment with industrial wheels"},
           ]}
-          gridVariant="uniform-4-items"
+          gridVariant="four-items-2x2-equal-grid"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
