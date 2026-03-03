@@ -42,7 +42,7 @@ export default function ContactPage() {
           description="Contact Radhe Marketing for wholesale pricing, product specifications, technical support, or to discuss your specific industrial wheel requirements. Our team responds quickly to all inquiries with customized solutions."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-vector/web-contact-form-template_23-2147608998.jpg"
+          imageSrc="http://img.b2bpic.net/free-vector/web-contact-form-template_23-2147608998.jpg?_wi=2"
           imageAlt="Radhe Marketing customer inquiry contact"
           mediaPosition="right"
           inputPlaceholder="Enter your email address"
@@ -62,21 +62,21 @@ export default function ContactPage() {
               id: "phone",
               title: "Call Us Directly",
               description: "Speak with our sales team directly for immediate assistance on product selection, pricing, and bulk orders. Available Monday to Friday during business hours.",
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg?_wi=5",
               imageAlt: "Direct phone contact",
             },
             {
               id: "whatsapp",
               title: "WhatsApp Inquiry",
               description: "Send product inquiries, photos, or specifications via WhatsApp. Quick response times and perfect for sharing detailed requirements with our team.",
-              imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-bike-pieces_23-2148932626.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-bike-pieces_23-2148932626.jpg?_wi=4",
               imageAlt: "WhatsApp messaging",
             },
             {
               id: "email",
               title: "Email for Documents",
               description: "Send detailed inquiries, technical specifications, or bulk order requests via email. Perfect for comprehensive correspondence and record-keeping.",
-              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg?_wi=5",
               imageAlt: "Email communication",
             },
           ]}
@@ -92,7 +92,7 @@ export default function ContactPage() {
           tag="Visit Our Facility"
           title="Radhe Marketing Headquarters"
           description="Located in Ahmedabad, Gujarat - the industrial heart of India. Visit our warehouse to view our complete product range, discuss custom requirements, and arrange pickup for bulk orders. We welcome factory managers, logistics coordinators, and business partners."
-          imageSrc="http://img.b2bpic.net/free-photo/smart-indian-engineer-man-wearing-safety-helmet-doing-stock-tick-check-cardboard-stock-product-management-factory-warehouse-background_609648-1422.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/smart-indian-engineer-man-wearing-safety-helmet-doing-stock-tick-check-cardboard-stock-product-management-factory-warehouse-background_609648-1422.jpg?_wi=3"
           imageAlt="Radhe Marketing Ahmedabad facility"
           buttons={[
             { text: "Call for Directions", href: "tel:+919909421029" },
