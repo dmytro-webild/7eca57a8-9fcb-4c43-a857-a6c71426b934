@@ -42,45 +42,17 @@ export default function ApplicationsPage() {
           tag="Applications"
           products={[
             {
-              id: "1",
-              brand: "Manufacturing",
-              name: "Factory Production Lines",
-              price: "Heavy-Duty Solutions",
-              rating: 5,
-              reviewCount: "500+",
-              imageSrc: "http://img.b2bpic.net/free-photo/african-american-female-industrial-employee-hardhat-overall-walking-plant-floor_74855-16327.jpg?_wi=3",
-              imageAlt: "Industrial factory production with material handling wheels",
-            },
+              id: "1",              brand: "Manufacturing",              name: "Factory Production Lines",              price: "Heavy-Duty Solutions",              rating: 5,
+              reviewCount: "500+",              imageSrc: "http://img.b2bpic.net/free-photo/african-american-female-industrial-employee-hardhat-overall-walking-plant-floor_74855-16327.jpg",              imageAlt: "Industrial factory production with material handling wheels"},
             {
-              id: "2",
-              brand: "Healthcare",
-              name: "Hospital & Clinic Equipment",
-              price: "Light-Duty Specialized",
-              rating: 5,
-              reviewCount: "300+",
-              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg?_wi=5",
-              imageAlt: "Hospital trolley with smooth operating wheels",
-            },
+              id: "2",              brand: "Healthcare",              name: "Hospital & Clinic Equipment",              price: "Light-Duty Specialized",              rating: 5,
+              reviewCount: "300+",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg",              imageAlt: "Hospital trolley with smooth operating wheels"},
             {
-              id: "3",
-              brand: "Logistics",
-              name: "Warehouse & Distribution",
-              price: "Medium-Duty Reliable",
-              rating: 5,
-              reviewCount: "600+",
-              imageSrc: "http://img.b2bpic.net/free-photo/warehouse-workers-discussing-about-logistics-distribution-packages-market_342744-1558.jpg?_wi=2",
-              imageAlt: "Warehouse with material handling equipment",
-            },
+              id: "3",              brand: "Logistics",              name: "Warehouse & Distribution",              price: "Medium-Duty Reliable",              rating: 5,
+              reviewCount: "600+",              imageSrc: "http://img.b2bpic.net/free-photo/warehouse-workers-discussing-about-logistics-distribution-packages-market_342744-1558.jpg",              imageAlt: "Warehouse with material handling equipment"},
             {
-              id: "4",
-              brand: "Workshops",
-              name: "Mechanical & Auto Workshops",
-              price: "Heavy-Duty Variants",
-              rating: 5,
-              reviewCount: "280+",
-              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg?_wi=4",
-              imageAlt: "Workshop equipment with industrial wheels",
-            },
+              id: "4",              brand: "Workshops",              name: "Mechanical & Auto Workshops",              price: "Heavy-Duty Variants",              rating: 5,
+              reviewCount: "280+",              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",              imageAlt: "Workshop equipment with industrial wheels"},
           ]}
           gridVariant="uniform-4-items"
           animationType="slide-up"
@@ -96,26 +68,11 @@ export default function ApplicationsPage() {
           tag="Specialized Applications"
           features={[
             {
-              id: "manufacturing",
-              title: "Manufacturing & Foundries",
-              description: "Heavy-duty castors designed for extreme temperatures, corrosive chemicals, and maximum load capacities. Ideal for factory floors, production lines, and industrial machinery.",
-              imageSrc: "http://img.b2bpic.net/free-photo/african-american-female-industrial-employee-hardhat-overall-walking-plant-floor_74855-16327.jpg?_wi=4",
-              imageAlt: "Manufacturing facility with heavy equipment",
-            },
+              id: "manufacturing",              title: "Manufacturing & Foundries",              description: "Heavy-duty castors designed for extreme temperatures, corrosive chemicals, and maximum load capacities. Ideal for factory floors, production lines, and industrial machinery.",              imageSrc: "http://img.b2bpic.net/free-photo/african-american-female-industrial-employee-hardhat-overall-walking-plant-floor_74855-16327.jpg",              imageAlt: "Manufacturing facility with heavy equipment"},
             {
-              id: "healthcare",
-              title: "Healthcare & Medical",
-              description: "Quiet, smooth-running wheels for hospital trolleys, medical equipment, and patient care devices. Engineered for sterile environments and safe patient transport.",
-              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg?_wi=6",
-              imageAlt: "Medical equipment with specialized wheels",
-            },
+              id: "healthcare",              title: "Healthcare & Medical",              description: "Quiet, smooth-running wheels for hospital trolleys, medical equipment, and patient care devices. Engineered for sterile environments and safe patient transport.",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg",              imageAlt: "Medical equipment with specialized wheels"},
             {
-              id: "logistics",
-              title: "Logistics & Warehousing",
-              description: "Reliable, cost-effective wheels for pallets, carts, and material handling equipment. Supports high-volume daily operations in distribution centers.",
-              imageSrc: "http://img.b2bpic.net/free-photo/warehouse-workers-discussing-about-logistics-distribution-packages-market_342744-1558.jpg?_wi=3",
-              imageAlt: "Warehouse logistics and distribution",
-            },
+              id: "logistics",              title: "Logistics & Warehousing",              description: "Reliable, cost-effective wheels for pallets, carts, and material handling equipment. Supports high-volume daily operations in distribution centers.",              imageSrc: "http://img.b2bpic.net/free-photo/warehouse-workers-discussing-about-logistics-distribution-packages-market_342744-1558.jpg",              imageAlt: "Warehouse logistics and distribution"},
           ]}
           gridVariant="uniform-4-items"
           animationType="slide-up"
@@ -131,8 +88,8 @@ export default function ApplicationsPage() {
           description="Not sure which wheel solution is right for your specific needs? Our technical team provides free consultations to recommend the optimal wheel configuration for your application."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg?_wi=4"
-          imageAlt: "Technical consultation for application selection"
+          imageSrc="http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg"
+          imageAlt="Technical consultation for application selection"
           mediaPosition="right"
           inputPlaceholder="Enter your email"
           buttonText="Get Consultation"

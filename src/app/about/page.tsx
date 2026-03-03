@@ -40,7 +40,7 @@ export default function AboutPage() {
           tag="Our Story"
           title="Trusted Industrial Wheel Supplier Since 1998"
           description="Radhe Marketing is a leading wholesaler and retailer of premium quality castor wheels, trolley wheels, and rubber wheels based in Ahmedabad, Gujarat. With over 25 years of industry experience, we have built a reputation for reliability, quality, and exceptional customer service. We serve factories, warehouses, hospitals, workshops, logistics companies, and material handling units across India with durable, cost-effective solutions."
-          imageSrc="http://img.b2bpic.net/free-photo/smart-indian-engineer-man-wearing-safety-helmet-doing-stock-tick-check-cardboard-stock-product-management-factory-warehouse-background_609648-1422.jpg?_wi=2"
+          imageSrc="http://img.b2bpic.net/free-photo/smart-indian-engineer-man-wearing-safety-helmet-doing-stock-tick-check-cardboard-stock-product-management-factory-warehouse-background_609648-1422.jpg"
           imageAlt="Radhe Marketing warehouse and operations facility"
           buttons={[
             { text: "View Products", href: "/products" },
@@ -57,32 +57,14 @@ export default function AboutPage() {
           tag="Client Success"
           testimonials={[
             {
-              id: "1",
-              name: "Rajesh Patel",
-              role: "Production Manager",
-              company: "Ahmedabad Manufacturing Ltd",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg?_wi=5",
-              imageAlt: "Rajesh Patel - Production Manager",
-            },
+              id: "1",              name: "Rajesh Patel",              role: "Production Manager",              company: "Ahmedabad Manufacturing Ltd",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg",              imageAlt: "Rajesh Patel - Production Manager"},
             {
-              id: "2",
-              name: "Vikram Singh",
-              role: "Warehouse Manager",
-              company: "Gujarat Logistics Solutions",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg?_wi=6",
-              imageAlt: "Vikram Singh - Warehouse Manager",
-            },
+              id: "2",              name: "Vikram Singh",              role: "Warehouse Manager",              company: "Gujarat Logistics Solutions",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg",              imageAlt: "Vikram Singh - Warehouse Manager"},
             {
-              id: "3",
-              name: "Dr. Neha Verma",
-              role: "Hospital Administrator",
-              company: "Apollo Hospital Ahmedabad",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-female-business-executive-standing-with-arms-crossed_1170-780.jpg?_wi=2",
-              imageAlt: "Dr. Neha Verma - Hospital Administrator",
-            },
+              id: "3",              name: "Dr. Neha Verma",              role: "Hospital Administrator",              company: "Apollo Hospital Ahmedabad",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-female-business-executive-standing-with-arms-crossed_1170-780.jpg",              imageAlt: "Dr. Neha Verma - Hospital Administrator"},
           ]}
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
@@ -98,7 +80,7 @@ export default function AboutPage() {
           description="We are committed to providing industrial-grade wheel solutions that exceed our customers' expectations. Our dedication to quality, competitive pricing, and responsive customer service makes Radhe Marketing the trusted choice for businesses across India."
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/warehouse-workers-checking-inventory-large-distribution-warehouse-storage_342744-1538.jpg?_wi=3"
+          imageSrc="http://img.b2bpic.net/free-photo/warehouse-workers-checking-inventory-large-distribution-warehouse-storage_342744-1538.jpg"
           imageAlt="Radhe Marketing commitment to quality"
           mediaPosition="right"
           inputPlaceholder="Enter your email"
