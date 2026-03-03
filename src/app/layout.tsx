@@ -17,24 +17,26 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Radhe Marketing - Industrial Castor & Trolley Wheels Supplier Ahmedabad",  description: "Premium castor wheels, trolley wheels & rubber wheels supplier in Ahmedabad. Serving factories, warehouses, hospitals, workshops & logistics. Quality wheels for all industrial applications.",  keywords: "castor wheels, trolley wheels, rubber wheels, industrial wheels, Ahmedabad, supplier, wholesale",  metadataBase: new URL("https://radhemarketingwheels.com"),
   alternates: {
-    canonical: "https://radhemarketingwheels.com"},
+    canonical: "https://radhemarketingwheels.com"
+  },
   openGraph: {
     title: "Radhe Marketing - Industrial Wheels Supplier",    description: "Quality castor wheels, trolley wheels, and rubber wheels for factories, warehouses, hospitals, and logistics. Based in Ahmedabad, Gujarat.",    url: "https://radhemarketingwheels.com",    siteName: "Radhe Marketing",    type: "website",    images: [
       {
-        url: "http://img.b2bpic.net/free-photo/warehouse-workers-checking-inventory-large-distribution-warehouse-storage_342744-1538.jpg",        alt: "Industrial warehouse with Radhe Marketing wheels"},
-    ],
+        url: "http://img.b2bpic.net/free-photo/warehouse-workers-checking-inventory-large-distribution-warehouse-storage_342744-1538.jpg",        alt: "Industrial warehouse with Radhe Marketing wheels"
+      }
+    ]
   },
   twitter: {
-    card: "summary_large_image",    title: "Radhe Marketing - Industrial Wheels Supplier",    description: "Premium castor wheels and trolley wheels for industrial applications",    images: ["http://img.b2bpic.net/free-photo/warehouse-workers-checking-inventory-large-distribution-warehouse-storage_342744-1538.jpg"],
+    card: "summary_large_image",    title: "Radhe Marketing - Industrial Wheels Supplier",    description: "Premium castor wheels and trolley wheels for industrial applications",    images: ["http://img.b2bpic.net/free-photo/warehouse-workers-checking-inventory-large-distribution-warehouse-storage_342744-1538.jpg"]
   },
   robots: {
     index: true,
-    follow: true,
-  },
+    follow: true
+  }
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {

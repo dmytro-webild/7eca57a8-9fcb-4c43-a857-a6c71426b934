@@ -14,7 +14,7 @@ const navItems = [
   { name: "Products", id: "/products" },
   { name: "Applications", id: "/applications" },
   { name: "About", id: "/about" },
-  { name: "Contact", id: "/contact" },
+  { name: "Contact", id: "/contact" }
 ];
 
 export default function AboutPage() {
@@ -44,7 +44,7 @@ export default function AboutPage() {
           imageAlt="Radhe Marketing warehouse and operations facility"
           buttons={[
             { text: "View Products", href: "/products" },
-            { text: "Get in Touch", href: "/contact" },
+            { text: "Get in Touch", href: "/contact" }
           ]}
           useInvertedBackground={false}
         />
@@ -58,13 +58,16 @@ export default function AboutPage() {
           testimonials={[
             {
               id: "1",              name: "Rajesh Patel",              role: "Production Manager",              company: "Ahmedabad Manufacturing Ltd",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg",              imageAlt: "Rajesh Patel - Production Manager"},
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg",              imageAlt: "Rajesh Patel - Production Manager"
+            },
             {
               id: "2",              name: "Vikram Singh",              role: "Warehouse Manager",              company: "Gujarat Logistics Solutions",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg",              imageAlt: "Vikram Singh - Warehouse Manager"},
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-male-worker-standing-warehouse_107420-96550.jpg",              imageAlt: "Vikram Singh - Warehouse Manager"
+            },
             {
               id: "3",              name: "Dr. Neha Verma",              role: "Hospital Administrator",              company: "Apollo Hospital Ahmedabad",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-female-business-executive-standing-with-arms-crossed_1170-780.jpg",              imageAlt: "Dr. Neha Verma - Hospital Administrator"},
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-female-business-executive-standing-with-arms-crossed_1170-780.jpg",              imageAlt: "Dr. Neha Verma - Hospital Administrator"
+            }
           ]}
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
@@ -97,7 +100,7 @@ export default function AboutPage() {
           socialLinks={[
             { icon: Phone, href: "tel:+919909421029", ariaLabel: "Call us at +91-9909-421029" },
             { icon: MessageCircle, href: "https://wa.me/919909421029", ariaLabel: "WhatsApp us at +91-9909-421029" },
-            { icon: Mail, href: "mailto:info@radhemarketingwheels.com", ariaLabel: "Email us" },
+            { icon: Mail, href: "mailto:info@radhemarketingwheels.com", ariaLabel: "Email us" }
           ]}
         />
       </div>

@@ -14,7 +14,7 @@ const navItems = [
   { name: "Products", id: "/products" },
   { name: "Applications", id: "/applications" },
   { name: "About", id: "/about" },
-  { name: "Contact", id: "/contact" },
+  { name: "Contact", id: "/contact" }
 ];
 
 export default function ProductsPage() {
@@ -42,17 +42,23 @@ export default function ProductsPage() {
           tag="Product Catalog"
           features={[
             {
-              id: "heavy-duty",              title: "Heavy Duty Castor Wheels",              description: "Our premium heavy-duty castor wheels are engineered for maximum load capacity, durability, and performance in the most demanding industrial environments including foundries, steel plants, and heavy machinery operations.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg",              imageAlt: "Heavy duty industrial wheels for demanding applications"},
+              id: "heavy-duty",              title: "Heavy Duty Castor Wheels",              description: "Our premium heavy-duty castor wheels are engineered for maximum load capacity, durability, and performance in the most demanding industrial environments including foundries, steel plants, and heavy machinery operations.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg",              imageAlt: "Heavy duty industrial wheels for demanding applications"
+            },
             {
-              id: "medium-duty",              title: "Medium Duty Wheels",              description: "Balanced performance with excellent reliability for general warehouse, distribution, and material handling operations. Perfect for trolleys, carts, and standard equipment transfer applications.",              imageSrc: "http://img.b2bpic.net/free-psd/portable-folding-utility-cart-with-two-shelves-orange-handle_84443-76242.jpg",              imageAlt: "Medium duty trolley wheels for warehouses"},
+              id: "medium-duty",              title: "Medium Duty Wheels",              description: "Balanced performance with excellent reliability for general warehouse, distribution, and material handling operations. Perfect for trolleys, carts, and standard equipment transfer applications.",              imageSrc: "http://img.b2bpic.net/free-psd/portable-folding-utility-cart-with-two-shelves-orange-handle_84443-76242.jpg",              imageAlt: "Medium duty trolley wheels for warehouses"
+            },
             {
-              id: "light-duty",              title: "Light Duty Wheels",              description: "Specialized light-duty wheels for hospitals, clinics, and sensitive applications. Engineered for smooth, quiet operation with superior floor protection.",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg",              imageAlt: "Light duty wheels for hospital and medical equipment"},
+              id: "light-duty",              title: "Light Duty Wheels",              description: "Specialized light-duty wheels for hospitals, clinics, and sensitive applications. Engineered for smooth, quiet operation with superior floor protection.",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg",              imageAlt: "Light duty wheels for hospital and medical equipment"
+            },
             {
-              id: "pu-nylon",              title: "PU & Nylon Wheels",              description: "Modern polyurethane and nylon wheel variants offering superior grip, exceptional floor protection, and reduced noise for sensitive environments.",              imageSrc: "http://img.b2bpic.net/free-photo/fitness-equipment_53876-31257.jpg",              imageAlt: "PU and nylon wheel materials"},
+              id: "pu-nylon",              title: "PU & Nylon Wheels",              description: "Modern polyurethane and nylon wheel variants offering superior grip, exceptional floor protection, and reduced noise for sensitive environments.",              imageSrc: "http://img.b2bpic.net/free-photo/fitness-equipment_53876-31257.jpg",              imageAlt: "PU and nylon wheel materials"
+            },
             {
-              id: "swivel-fixed",              title: "Swivel & Fixed Castors",              description: "Complete wheel configurations including swivel castors for maximum maneuverability and fixed castors for directional stability with optional braking.",              imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-bike-pieces_23-2148932626.jpg",              imageAlt: "Swivel and fixed castor wheel configurations"},
+              id: "swivel-fixed",              title: "Swivel & Fixed Castors",              description: "Complete wheel configurations including swivel castors for maximum maneuverability and fixed castors for directional stability with optional braking.",              imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-bike-pieces_23-2148932626.jpg",              imageAlt: "Swivel and fixed castor wheel configurations"
+            },
             {
-              id: "braked",              title: "Braked Wheel Solutions",              description: "Integrated braking systems providing secure equipment positioning and enhanced operator safety, essential for steep surfaces and dynamic work environments.",              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",              imageAlt: "Braked wheel systems for safety"},
+              id: "braked",              title: "Braked Wheel Solutions",              description: "Integrated braking systems providing secure equipment positioning and enhanced operator safety, essential for steep surfaces and dynamic work environments.",              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",              imageAlt: "Braked wheel systems for safety"
+            }
           ]}
           gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
@@ -69,16 +75,20 @@ export default function ProductsPage() {
           products={[
             {
               id: "1",              brand: "Industrial Standard",              name: "Heavy Load Industrial Castor",              price: "₹2,500-5,000",              rating: 5,
-              reviewCount: "450+",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg",              imageAlt: "Heavy load industrial castor wheels"},
+              reviewCount: "450+",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg",              imageAlt: "Heavy load industrial castor wheels"
+            },
             {
               id: "2",              brand: "Warehouse Pro",              name: "Standard Trolley Wheel Set",              price: "₹1,200-2,800",              rating: 5,
-              reviewCount: "580+",              imageSrc: "http://img.b2bpic.net/free-psd/portable-folding-utility-cart-with-two-shelves-orange-handle_84443-76242.jpg",              imageAlt: "Standard trolley wheel sets"},
+              reviewCount: "580+",              imageSrc: "http://img.b2bpic.net/free-psd/portable-folding-utility-cart-with-two-shelves-orange-handle_84443-76242.jpg",              imageAlt: "Standard trolley wheel sets"
+            },
             {
               id: "3",              brand: "Medical Grade",              name: "Hospital Equipment Wheels",              price: "₹800-1,800",              rating: 5,
-              reviewCount: "320+",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg",              imageAlt: "Hospital medical equipment wheels"},
+              reviewCount: "320+",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-walker_53876-20434.jpg",              imageAlt: "Hospital medical equipment wheels"
+            },
             {
               id: "4",              brand: "Premium PU Series",              name: "Polyurethane Eco Wheels",              price: "₹3,000-6,500",              rating: 5,
-              reviewCount: "290+",              imageSrc: "http://img.b2bpic.net/free-photo/fitness-equipment_53876-31257.jpg",              imageAlt: "Premium polyurethane eco-friendly wheels"},
+              reviewCount: "290+",              imageSrc: "http://img.b2bpic.net/free-photo/fitness-equipment_53876-31257.jpg",              imageAlt: "Premium polyurethane eco-friendly wheels"
+            }
           ]}
           gridVariant="four-items-2x2-equal-grid"
           animationType="slide-up"
@@ -111,7 +121,7 @@ export default function ProductsPage() {
           socialLinks={[
             { icon: Phone, href: "tel:+919909421029", ariaLabel: "Call us at +91-9909-421029" },
             { icon: MessageCircle, href: "https://wa.me/919909421029", ariaLabel: "WhatsApp us at +91-9909-421029" },
-            { icon: Mail, href: "mailto:info@radhemarketingwheels.com", ariaLabel: "Email us" },
+            { icon: Mail, href: "mailto:info@radhemarketingwheels.com", ariaLabel: "Email us" }
           ]}
         />
       </div>

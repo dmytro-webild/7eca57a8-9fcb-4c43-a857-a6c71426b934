@@ -14,7 +14,7 @@ const navItems = [
   { name: "Products", id: "/products" },
   { name: "Applications", id: "/applications" },
   { name: "About", id: "/about" },
-  { name: "Contact", id: "/contact" },
+  { name: "Contact", id: "/contact" }
 ];
 
 export default function ContactPage() {
@@ -59,11 +59,14 @@ export default function ContactPage() {
           tag="Contact Options"
           features={[
             {
-              id: "phone",              title: "Call Us Directly",              description: "Speak with our sales team directly for immediate assistance on product selection, pricing, and bulk orders. Available Monday to Friday during business hours.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg",              imageAlt: "Direct phone contact"},
+              id: "phone",              title: "Call Us Directly",              description: "Speak with our sales team directly for immediate assistance on product selection, pricing, and bulk orders. Available Monday to Friday during business hours.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-heavy-industrial-crane-mechanism_632498-60873.jpg",              imageAlt: "Direct phone contact"
+            },
             {
-              id: "whatsapp",              title: "WhatsApp Inquiry",              description: "Send product inquiries, photos, or specifications via WhatsApp. Quick response times and perfect for sharing detailed requirements with our team.",              imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-bike-pieces_23-2148932626.jpg",              imageAlt: "WhatsApp messaging"},
+              id: "whatsapp",              title: "WhatsApp Inquiry",              description: "Send product inquiries, photos, or specifications via WhatsApp. Quick response times and perfect for sharing detailed requirements with our team.",              imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-bike-pieces_23-2148932626.jpg",              imageAlt: "WhatsApp messaging"
+            },
             {
-              id: "email",              title: "Email for Documents",              description: "Send detailed inquiries, technical specifications, or bulk order requests via email. Perfect for comprehensive correspondence and record-keeping.",              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",              imageAlt: "Email communication"},
+              id: "email",              title: "Email for Documents",              description: "Send detailed inquiries, technical specifications, or bulk order requests via email. Perfect for comprehensive correspondence and record-keeping.",              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",              imageAlt: "Email communication"
+            }
           ]}
           gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
@@ -81,7 +84,7 @@ export default function ContactPage() {
           imageAlt="Radhe Marketing Ahmedabad facility"
           buttons={[
             { text: "Call for Directions", href: "tel:+919909421029" },
-            { text: "Request Visit", href: "https://wa.me/919909421029" },
+            { text: "Request Visit", href: "https://wa.me/919909421029" }
           ]}
           useInvertedBackground={false}
         />
@@ -94,7 +97,7 @@ export default function ContactPage() {
           socialLinks={[
             { icon: Phone, href: "tel:+919909421029", ariaLabel: "Call us at +91-9909-421029" },
             { icon: MessageCircle, href: "https://wa.me/919909421029", ariaLabel: "WhatsApp us at +91-9909-421029" },
-            { icon: Mail, href: "mailto:info@radhemarketingwheels.com", ariaLabel: "Email us" },
+            { icon: Mail, href: "mailto:info@radhemarketingwheels.com", ariaLabel: "Email us" }
           ]}
         />
       </div>
