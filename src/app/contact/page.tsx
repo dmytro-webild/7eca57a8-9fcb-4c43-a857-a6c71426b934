@@ -65,7 +65,7 @@ export default function ContactPage() {
             {
               id: "email",              title: "Email for Documents",              description: "Send detailed inquiries, technical specifications, or bulk order requests via email. Perfect for comprehensive correspondence and record-keeping.",              imageSrc: "http://img.b2bpic.net/free-photo/detail-precision-tools_1359-246.jpg",              imageAlt: "Email communication"},
           ]}
-          gridVariant="uniform-4-items"
+          gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground="noInvert"
